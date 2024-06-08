@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Our Consultancy</h1>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h2>Your Trusted Consultancy Partner</h2>
+            <p>We provide expert advice to help your business thrive.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of experienced consultants dedicated to offering practical solutions for your business needs.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Business Strategy</h3>
+                <p>Expert guidance on strategic planning and execution.</p>
+            </div>
+            <div class="service">
+                <h3>Market Analysis</h3>
+                <p>In-depth market research to drive your business growth.</p>
+            </div>
+            <div class="service">
+                <h3>Financial Consulting</h3>
+                <p>Comprehensive financial advice for better decision-making.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Consultancy Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
